@@ -1,12 +1,39 @@
-# React + Vite
+# 🗞️ NewsNow - News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **News App** built using **React + Vite**, fetching real-time news from [NewsAPI.org](https://newsapi.org/). Browse trending headlines by category like **General**, **Technology**, **Sports**, and **Business**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📰 Live top headlines from multiple categories
+- 🔍 Clean UI with easy-to-read cards
+- 🌐 category-specific filters
+- 💡 Built using Vite + React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+<img width="1897" height="1021" alt="Screenshot 3" src="https://github.com/user-attachments/assets/7be0bc2f-1cd1-4a44-a3e2-fcdff9381b44" />
+
+<img width="1903" height="1024" alt="Screenshot 2025-07-10 112320" src="https://github.com/user-attachments/assets/81cbac0d-008c-4693-8b81-7f11a11dd2b5" />
+
+---
+
+## 🛠️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/ayuship29/News-App.git
+cd News-App
+
+# Install dependencies
+npm install
+
+# Add your API key
+cp .env.example .env
+# Then edit .env to include your API key
+
+# Start the development server
+npm run dev
